@@ -97,7 +97,12 @@ public class PasswordUtils {
     }
 
     /**
+<<<<<<< HEAD
      * Tạo mật khẩu ngẫu nhiên * @param length Độ dài mật khẩu
+=======
+     * Tạo mật khẩu ngẫu nhiên
+     * @param length Độ dài mật khẩu
+>>>>>>> 83f4733889382973411d52ad4721366bcfcaf921
      * @return Mật khẩu ngẫu nhiên
      */
     public static String generateRandomPassword(int length) {
