@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">AppThiBangLaiXeA1</string>
+
+    <!-- Login Activity -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_subtitle">Đăng nhập để tiếp tục</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="remember_me">Ghi nhớ đăng nhập</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="create_account">Tạo tài khoản mới</string>
+    <string name="logging_in">Đang đăng nhập...</string>
+
+    <!-- Register Activity -->
+    <string name="register_title">Đăng ký tài khoản</string>
+    <string name="full_name_hint">Họ và tên</string>
+    <string name="phone_hint">Số điện thoại</string>
+    <string name="confirm_password_hint">Xác nhận mật khẩu</string>
+    <string name="register_button">Đăng ký</string>
+    <string name="back_to_login">Quay lại đăng nhập</string>
+    <string name="agree_terms">Đồng ý với điều khoản sử dụng</string>
+    <string name="registering">Đang đăng ký...</string>
+
+    <!-- Validation Messages -->
+    <string name="error_empty_email">Email không được để trống</string>
+    <string name="error_invalid_email">Email không hợp lệ</string>
+    <string name="error_empty_password">Mật khẩu không được để trống</string>
+    <string name="error_weak_password">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="error_password_mismatch">Mật khẩu xác nhận không khớp</string>
+    <string name="error_empty_name">Họ tên không được để trống</string>
+    <string name="error_invalid_name">Họ tên phải có ít nhất 2 ký tự</string>
+    <string name="error_empty_phone">Số điện thoại không được để trống</string>
+    <string name="error_invalid_phone">Số điện thoại không hợp lệ</string>
+    <string name="error_email_exists">Email đã được sử dụng</string>
+    <string name="error_phone_exists">Số điện thoại đã được sử dụng</string>
+    <string name="error_agree_terms">Vui lòng đồng ý với điều khoản sử dụng</string>
+
+    <!-- Success Messages -->
+    <string name="register_success">Đăng ký thành công!</string>
+    <string name="login_success">Đăng nhập thành công!</string>
+
+    <!-- Dialog Messages -->
+    <string name="forgot_password_title">Quên mật khẩu</string>
+    <string name="forgot_password_message">Nhập email để nhận hướng dẫn đặt lại mật khẩu</string>
+    <string name="reset_password_sent">Hướng dẫn đặt lại mật khẩu đã được gửi đến email của bạn</string>
+    <string name="email_not_found">Email chưa được đăng ký trong hệ thống</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Hủy</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="send">Gửi</string>
+    <string name="close">Đóng</string>
+    <string name="save">Lưu</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Sửa</string>
+    <string name="loading">Đang tải...</string>
+    <string name="please_wait">Vui lòng chờ...</string>
+
+    <!-- Content Descriptions -->
+    <string name="app_logo">Logo ứng dụng</string>
+    <string name="email_icon">Icon email</string>
+    <string name="password_icon">Icon mật khẩu</string>
+    <string name="phone_icon">Icon điện thoại</string>
+    <string name="person_icon">Icon người dùng</string>
+
+    <!-- App Info -->
+    <string name="app_version">Phiên bản 1.0</string>
+    <string name="copyright">© 2024 Ứng dụng thi bằng lái xe A1</string>
+
+    <!-- Password Strength -->
+    <string name="password_strength_weak">Yếu</string>
+    <string name="password_strength_medium">Trung bình</string>
+    <string name="password_strength_strong">Mạnh</string>
+    <string name="password_strength_label">Độ mạnh mật khẩu:</string>
+</resources>

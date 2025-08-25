@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background Colors -->
+    <color name="background_color">#F5F5F5</color>
+    <color name="card_background">#E7E7E7</color>
+    <color name="tips_background">#FFF9C4</color>
+
+    <!-- Text Colors -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Progress Colors -->
+    <color name="progress_color">#4CAF50</color>
+    <color name="progress_background">#E0E0E0</color>
+
+    <!-- Menu Card Colors -->
+    <color name="menu_card_1">#FF6B6B</color>
+    <color name="menu_card_2">#4ECDC4</color>
+    <color name="menu_card_3">#45B7D1</color>
+    <color name="menu_card_4">#96CEB4</color>
+    <color name="menu_card_5">#FFEAA7</color>
+    <color name="menu_card_6">#DDA0DD</color>
+
+    <!-- Tips Section -->
+    <color name="tips_icon">#FF8F00</color>
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#FFC107</color>
+    <color name="colorSecondaryDark">#FF8F00</color>
+
+    <!-- Background Colors -->
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="surfaceColor">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="textColorHint">#BDBDBD</color>
+
+    <!-- Status Colors -->
+    <color name="successColor">#4CAF50</color>
+    <color name="warningColor">#FF9800</color>
+    <color name="errorColor">#F44336</color>
+    <color name="infoColor">#2196F3</color>
+
+    <!-- Common Colors -->
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradientStart">#1976D2</color>
+    <color name="gradientEnd">#42A5F5</color>
+
+    <!-- Button Colors -->
+    <color name="buttonEnabledColor">#1976D2</color>
+    <color name="buttonDisabledColor">#BDBDBD</color>
+    <color name="buttonPressedColor">#1565C0</color>
+
+    <!-- Password Strength Colors -->
+    <color name="passwordWeak">#F44336</color>
+    <color name="passwordMedium">#FF9800</color>
+    <color name="passwordStrong">#4CAF50</color>
+
+    <!-- Divider and Border -->
+    <color name="dividerColor">#E0E0E0</color>
+    <color name="borderColor">#BDBDBD</color>
+
+    <!-- Material Colors -->
+    <color name="material_blue_500">#2196F3</color>
+    <color name="material_blue_700">#1976D2</color>
+    <color name="material_grey_300">#E0E0E0</color>
+    <color name="material_grey_500">#9E9E9E</color>
+
+    <!-- Divider and Border -->
+    <color name="divider_color">#E0E0E0</color>
+    <color name="border_color">#BDBDBD</color>
+
+    <!-- Overlay Colors -->
+    <color name="overlay_light">#66FFFFFF</color>
+    <color name="overlay_dark">#66000000</color>
+</resources>
