@@ -29,11 +29,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="8dp"
             android:text="LUYỆN THI A1"
-<<<<<<< HEAD
             android:textColor="@color/black"
-=======
-            android:textColor="@color/white"
->>>>>>> 83f4733889382973411d52ad4721366bcfcaf921
             android:textSize="28sp"
             android:textStyle="bold" />
 
@@ -43,11 +39,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="32dp"
             android:text="Đăng ký tài khoản"
-<<<<<<< HEAD
             android:textColor="@color/black"
-=======
-            android:textColor="@color/white"
->>>>>>> 83f4733889382973411d52ad4721366bcfcaf921
             android:textSize="18sp" />
 
         <!-- Registration Form Card -->

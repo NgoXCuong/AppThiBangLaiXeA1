@@ -78,13 +78,11 @@
     <color name="material_grey_300">#E0E0E0</color>
     <color name="material_grey_500">#9E9E9E</color>
 
-<<<<<<< HEAD
     <!-- Divider and Border -->
     <color name="divider_color">#E0E0E0</color>
     <color name="border_color">#BDBDBD</color>
 
-=======
->>>>>>> 83f4733889382973411d52ad4721366bcfcaf921
+
     <!-- Overlay Colors -->
     <color name="overlay_light">#66FFFFFF</color>
     <color name="overlay_dark">#66000000</color>

@@ -91,7 +91,6 @@ public class UserRepository {
         }).start();
     }
 
-<<<<<<< HEAD
     // Get user by email
     public void getUserByEmail(String email, UserCallback callback) {
         new Thread(() -> {
@@ -108,8 +107,7 @@ public class UserRepository {
         }).start();
     }
 
-=======
->>>>>>> 83f4733889382973411d52ad4721366bcfcaf921
+
     public void updateUser(User user, UpdateCallback callback) {
         new Thread(() -> {
             try {
@@ -145,8 +143,5 @@ public class UserRepository {
     public interface UpdateCallback {
         void onResult(boolean success, String message);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 83f4733889382973411d52ad4721366bcfcaf921
+

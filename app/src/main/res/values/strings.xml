@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">AppThiBangLaiXeA1</string>
-<<<<<<< HEAD
-
     <!-- Login Activity -->
     <string name="login_title">Đăng nhập</string>
     <string name="login_subtitle">Đăng nhập để tiếp tục</string>
