@@ -16,21 +16,21 @@
 
         <!-- Logo and Title -->
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="-20dp"
             android:contentDescription="Logo ứng dụng luyện thi A1"
-            android:src="@drawable/ic_driving_license" />
+            android:src="@drawable/drive" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="8dp"
-            android:text="LUYỆN THI A1"
+            android:text="LUYỆN THI TRẮC NGHIỆM A1"
             android:textColor="@color/black"
-            android:textSize="28sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <TextView
@@ -39,7 +39,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="32dp"
             android:text="Đăng ký tài khoản"
-            android:textColor="@color/black"
+            android:textColor="@color/secondary_text"
             android:textSize="18sp" />
 
         <!-- Registration Form Card -->
@@ -240,9 +240,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:text="Ứng dụng luyện thi lý thuyết lái xe A1\nPhiên bản 1.0"
+            android:text="© 2025 Ứng dụng thi bằng lái xe A1\nPhiên bản 1.0"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/secondary_text"
             android:textSize="12sp"
             android:alpha="0.8" />
 

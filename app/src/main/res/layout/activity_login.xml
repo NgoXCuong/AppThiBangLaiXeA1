@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
+    android:background="@drawable/gradient_background"
     android:fillViewport="true"
     tools:context=".activities.LoginActivity">
 
@@ -24,19 +24,19 @@
             android:layout_marginBottom="48dp">
 
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/ic_motorcycle_logo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/drive"
                 android:contentDescription="@string/app_logo"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="-20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ứng dụng thi bằng lái xe A1"
-                android:textSize="20sp"
+                android:text="LUYỆN THI TRẮC NGHIỆM A1"
+                android:textSize="22sp"
                 android:textStyle="bold"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/black"
                 android:layout_marginBottom="8dp" />
 
             <TextView
@@ -198,7 +198,7 @@
             android:layout_height="56dp"
             android:text="Tạo tài khoản mới"
             android:textSize="16sp"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/black"
             android:background="@drawable/btn_outline_background"
             android:layout_marginBottom="32dp"
             style="?android:attr/borderlessButtonStyle" />
@@ -207,7 +207,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="© 2024 Ứng dụng thi bằng lái xe A1\nPhiên bản 1.0"
+            android:text="© 2025 Ứng dụng thi bằng lái xe A1\nPhiên bản 1.0"
             android:textSize="12sp"
             android:textColor="@color/secondary_text"
             android:gravity="center"
