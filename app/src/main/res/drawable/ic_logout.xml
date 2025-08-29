@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+
+    <!-- Cửa (hình chữ nhật bên trái) -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M10,17v-2H3V9h7V7H1v10h9z"/>
+
+    <!-- Mũi tên đi ra ngoài (bên phải) -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M14,7l5,5 -5,5v-3h-4v-4h4V7z"/>
+</vector>

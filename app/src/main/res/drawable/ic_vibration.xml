@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+
+    <!-- Điện thoại -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M16,1H8c-1.1,0 -2,0.9 -2,2v18c0,1.1 0.9,2 2,2h8c1.1,0 2,-0.9 2,-2V3c0,-1.1 -0.9,-2 -2,-2zm0,18H8V5h8v14z"/>
+
+    <!-- Vạch rung bên trái -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M1,9h2v6H1zM4,6h2v12H4z"/>
+
+    <!-- Vạch rung bên phải -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M21,9h2v6h-2zM18,6h2v12h-2z"/>
+</vector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+
+    <!-- Chữ A lớn -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M5,20h2.5l1.12,-3h4.76l1.12,3H17l-5,-14h-2l-5,14zM9.62,14l1.88,-5.33L13.38,14H9.62z"/>
+
+    <!-- Chữ A nhỏ -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M19,20v-2h-6v2h6z"/>
+</vector>
