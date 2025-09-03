@@ -74,6 +74,6 @@
     <string name="password_strength_medium">Trung bình</string>
     <string name="password_strength_strong">Mạnh</string>
     <string name="password_strength_label">Độ mạnh mật khẩu:</string>
-=======
->>>>>>> 83f4733889382973411d52ad4721366bcfcaf921
+    =======
+    >>>>>>> 83f4733889382973411d52ad4721366bcfcaf921
 </resources>
