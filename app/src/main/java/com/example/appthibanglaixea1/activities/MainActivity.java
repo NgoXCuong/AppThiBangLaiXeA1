@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -32,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        LinearLayout layoutClick = findViewById(R.id.layoutClick);
+        LinearLayout layoutClick1 = findViewById(R.id.layoutClick1);
 
         // Gắn sự kiện click
-        layoutClick.setOnClickListener(v -> {
+        layoutClick1.setOnClickListener(v -> {
             // Chuyển sang trang khác
             Intent intent = new Intent(MainActivity.this, ChuDeActivity.class);
             startActivity(intent);
