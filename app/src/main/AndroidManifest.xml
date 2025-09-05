@@ -29,6 +29,7 @@
         <activity
             android:name=".activities.RegisterActivity"
             android:exported="false" />
+        <activity android:name=".activities.ThiThuActivity"></activity>
     </application>
 
 </manifest>

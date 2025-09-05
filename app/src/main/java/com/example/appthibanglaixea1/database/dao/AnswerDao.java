@@ -1,6 +1,7 @@
 package com.example.appthibanglaixea1.database.dao;
 
 import androidx.lifecycle.LiveData;
+import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
@@ -11,7 +12,9 @@ import com.example.appthibanglaixea1.database.entity.Answers;
 
 import java.util.List;
 
+@Dao
 public interface AnswerDao {
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     long insertAnswer(Answers answer);
 
@@ -23,4 +26,8 @@ public interface AnswerDao {
 
     @Query("SELECT * FROM answers WHERE question_id = :questionId")
     LiveData<List<Answers>> getAnswersForQuestion(int questionId);
+
+    // 🔥 FIX: Thêm @Query cho phương thức này
+    @Query("SELECT * FROM answers WHERE question_id = :questionId")
+    List<Answers> getAnswersByQuestionId(int questionId);
 }

@@ -1,6 +1,7 @@
 package com.example.appthibanglaixea1.database.dao;
 
 import androidx.lifecycle.LiveData;
+import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
@@ -9,7 +10,7 @@ import androidx.room.Query;
 import com.example.appthibanglaixea1.database.entity.BookmarkedQuestion;
 
 import java.util.List;
-
+@Dao
 public interface BookmarkedQuestionDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertBookmark(BookmarkedQuestion bookmark);

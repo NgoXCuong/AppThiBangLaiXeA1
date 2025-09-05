@@ -63,4 +63,9 @@ public class Answers {
     public void setCorrect(boolean correct) {
         isCorrect = correct;
     }
+
+    // 🔥 Thêm getId() để dùng trong Adapter
+    public int getId() {
+        return answerId;
+    }
 }

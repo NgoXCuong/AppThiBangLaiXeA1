@@ -52,6 +52,13 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
+        //Bat su kien click thi thu
+        LinearLayout layoutClickThiThu = findViewById(R.id.layoutClickThiThu);
+        layoutClickThiThu.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ThiThuActivity.class);
+            startActivity(intent);
+        });
+
         TextView textView = findViewById(R.id.textViewFullName);
 
 // Giả sử bạn có AppDatabase
